@@ -1,0 +1,12 @@
+{
+  "namespace": "guru.learningjournal.kafka.examples.types",
+  "type": "record",
+  "name": "LineItem",
+  "fields": [
+    {"name": "ItemCode","type": ["null","string"]},
+    {"name": "ItemDescription","type": ["null","string"]},
+    {"name": "ItemPrice","type": ["null","double"]},
+    {"name": "ItemQty","type": ["null","int"]},
+    {"name": "TotalValue","type": ["null","double"]}
+  ]
+}

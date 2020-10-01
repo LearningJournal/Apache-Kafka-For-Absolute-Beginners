@@ -1,0 +1,12 @@
+{
+  "namespace": "guru.learningjournal.kafka.examples.types",
+  "type": "record",
+  "name": "DeliveryAddress",
+  "fields": [
+    {"name": "AddressLine","type": ["null","string"]},
+    {"name": "City","type": ["null","string"]},
+    {"name": "State","type": ["null","string"]},
+    {"name": "PinCode","type": ["null","string"]},
+    {"name": "ContactNumber","type": ["null","string"]}
+  ]
+}

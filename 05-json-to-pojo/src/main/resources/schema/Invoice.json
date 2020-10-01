@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "javaType": "guru.learningjournal.kafka.examples.types.Invoice",
+  "properties": {
+      "InvoiceNumber": {"type": "string"},
+      "CreatedTime": {"type": "object", "javaType": "java.lang.Long"},
+      "CustomerCardNo": {"type": "string"},
+      "TotalAmount": {"type": "number"},
+      "NumberOfItem": {"type": "integer"},
+      "PaymentMethod": {"type": "string"},
+      "TaxableAmount": {"type": "number"},
+      "CGST": {"type": "number"},
+      "SGCT": {"type": "number"},
+      "CESS": {"type": "number"},
+      "InvoiceLineItems": {"type": "array" ,
+          "items": {
+            "type": "object",
+            "$ref": "LineItem.json"
+          }
+      }
+  }
+}
