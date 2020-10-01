@@ -19,7 +19,7 @@ This is the central repository for all the materials related to <em>Apache Kafka
 This course is designed for software engineers, solution architects, and managers willing to implement Kafka and solve real-time stream processing problems. I am also creating this course for data architects and data engineers who are responsible for designing and building the organization’s data-centric infrastructure. Another group of people is the managers and architects who do not directly work with Kafka implementation. Still, they work with the people who implement Kafka Streams at the ground level.
 </p>
 
-<h3>Spark and source code version</h3>
+<h3>Kafka and source code version</h3>
 <p align="justify">
 This Course is using the Apache Kafka 2.x. I have tested all the source code and examples used in this Course on Apache Kafka 2.5 open-source distribution.
 </p>
